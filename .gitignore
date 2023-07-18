@@ -1,3 +1,5 @@
 *.pyc
 .idea/*
-
+.ipynb_checkpoints/
+.python-version
+resource/.ipynb_checkpoints/
