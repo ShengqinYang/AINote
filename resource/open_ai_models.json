@@ -1,0 +1,218 @@
+{
+  "model_total": 53,
+  "model_list": [
+    {
+      "name": "gpt-3.5-turbo-0613",
+      "created": "2023-06-13 00:30:34"
+    },
+    {
+      "name": "gpt-3.5-turbo-16k-0613",
+      "created": "2023-05-31 03:17:27"
+    },
+    {
+      "name": "gpt-3.5-turbo-16k",
+      "created": "2023-05-11 06:35:02"
+    },
+    {
+      "name": "gpt-3.5-turbo-0301",
+      "created": "2023-03-01 13:52:43"
+    },
+    {
+      "name": "gpt-3.5-turbo",
+      "created": "2023-03-01 02:56:42"
+    },
+    {
+      "name": "whisper-1",
+      "created": "2023-02-28 05:13:04"
+    },
+    {
+      "name": "text-embedding-ada-002",
+      "created": "2022-12-17 03:01:39"
+    },
+    {
+      "name": "text-davinci-003",
+      "created": "2022-11-28 09:40:35"
+    },
+    {
+      "name": "ada-code-search-text",
+      "created": "2022-04-29 03:01:50"
+    },
+    {
+      "name": "babbage-search-document",
+      "created": "2022-04-29 03:01:50"
+    },
+    {
+      "name": "curie-similarity",
+      "created": "2022-04-29 03:01:50"
+    },
+    {
+      "name": "babbage-code-search-code",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "babbage-code-search-text",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "davinci-search-document",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "curie-search-query",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "text-search-curie-query-001",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "text-search-babbage-doc-001",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "text-search-curie-doc-001",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "babbage-search-query",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "text-search-babbage-query-001",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "davinci-similarity",
+      "created": "2022-04-29 03:01:49"
+    },
+    {
+      "name": "curie-search-document",
+      "created": "2022-04-29 03:01:48"
+    },
+    {
+      "name": "code-search-babbage-text-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "code-search-babbage-code-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "ada-similarity",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "code-search-ada-text-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "text-search-ada-doc-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "text-similarity-curie-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "code-search-ada-code-001",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "ada-search-document",
+      "created": "2022-04-29 03:01:47"
+    },
+    {
+      "name": "text-similarity-babbage-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "babbage-similarity",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "text-similarity-ada-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "ada-code-search-code",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "text-search-ada-query-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "ada-search-query",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "text-search-davinci-query-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "davinci-search-query",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "text-search-davinci-doc-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "text-similarity-davinci-001",
+      "created": "2022-04-29 03:01:45"
+    },
+    {
+      "name": "code-davinci-edit-001",
+      "created": "2022-04-14 04:08:04"
+    },
+    {
+      "name": "text-davinci-002",
+      "created": "2022-04-14 04:08:04"
+    },
+    {
+      "name": "text-davinci-edit-001",
+      "created": "2022-04-13 08:19:39"
+    },
+    {
+      "name": "text-curie-001",
+      "created": "2022-04-08 04:40:43"
+    },
+    {
+      "name": "text-babbage-001",
+      "created": "2022-04-08 04:40:43"
+    },
+    {
+      "name": "text-davinci-001",
+      "created": "2022-04-08 04:40:42"
+    },
+    {
+      "name": "text-ada-001",
+      "created": "2022-04-08 04:40:42"
+    },
+    {
+      "name": "curie-instruct-beta",
+      "created": "2022-04-08 04:40:42"
+    },
+    {
+      "name": "davinci-instruct-beta",
+      "created": "2022-04-08 04:40:42"
+    },
+    {
+      "name": "davinci",
+      "created": "2022-04-08 03:31:14"
+    },
+    {
+      "name": "curie",
+      "created": "2022-04-08 03:31:14"
+    },
+    {
+      "name": "babbage",
+      "created": "2022-04-08 03:07:29"
+    },
+    {
+      "name": "ada",
+      "created": "2022-04-08 02:51:31"
+    }
+  ]
+}
+
