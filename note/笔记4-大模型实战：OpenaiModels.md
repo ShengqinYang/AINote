@@ -7,7 +7,7 @@
 #### 编程题：请用自己的数据和 prompt 来测试下方链接中的代码
 
 ```text
-答：见 project/4.class_models.ipynb and project/example_chat_completion.py 
+答：见 project/4.class_models.ipynb and project/python/example_chat_completion.py 
     project/4.class_tiktoken.ipynb
 ```
 
