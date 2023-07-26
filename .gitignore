@@ -3,3 +3,5 @@
 .ipynb_checkpoints/
 .python-version
 resource/.ipynb_checkpoints/
+config.ini
+*/*test.*
