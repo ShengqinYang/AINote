@@ -43,7 +43,5 @@ OpenAI 的 ChatCompletion API 生成机器人的回复。整个程序提供了�
 ### 使用样例输出
 
 ![avatar](/resource/example_chat_completion.png)
-![Image](../resource/example_chat_completion.png)
-![Image](/AINote/resource/example_chat_completion.png)
 
 祝您享受与聊天机器人的交互！
