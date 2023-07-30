@@ -1,9 +1,12 @@
 import configparser
 import openai
+import os
 
 config = configparser.ConfigParser()
 config.read('../config.ini')
-openai.api_key = config.get("Openai", "api_key")
+openai.api_key = config.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
+os.environ["HTTP_PROXY"] = "http://127.0.0.1:1087"  # 配置自己的代理
+os.environ["HTTPS_PROXY"] = "http://127.0.0.1:1087"  # 配置自己的代理
 
 # 请根据自己的需求调整以下参数
 model = 'gpt-3.5-turbo'
