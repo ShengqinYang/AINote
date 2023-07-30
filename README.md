@@ -10,7 +10,7 @@ AINote
     project     --项目code
         python  --项目py文件类型code
     resource    --资源类，如图片
-    conifg.ini  --配置文件，存放配置参数
+    conifg.ini  --配置文件，存放配置参数，用户调试时在自己环境中将online_config.ini更改为config.ini，并修改相关配置内容，pull request时切勿暴露私人配置内容
     
 ```
 ## 练习1：xxxxxxx
@@ -29,7 +29,6 @@ AINote
 
 ## 联系我们
 如果您在练习过程中遇到任何问题或需要帮助，请随时联系我们：
-- 邮箱：contact@example.com
-- QQ群：123456789
+- 邮箱：jean_open_main@163.com
 
 祝您学习愉快！
