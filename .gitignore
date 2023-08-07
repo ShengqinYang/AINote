@@ -5,3 +5,4 @@
 resource/.ipynb_checkpoints/
 config.ini
 */*test.*
+test/
