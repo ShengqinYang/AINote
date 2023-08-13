@@ -5,7 +5,7 @@
   - 大型语言模型的理论和开发基础：深入探究像 GPT-4 这样的大型语言模型的内部运作，包括其架构，训练方法，应用等。 
   - 用 LangChain 开发 AIGC 应用：使用 LangChain 开发 AIGC 应用的实践示例和教程，展示了大型语言模型的实际应用。
 
-### 改课程项目源代码：https://github.com/DjangoPeng/openai-quickstart
+### 该课程项目源代码：https://github.com/DjangoPeng/openai-quickstart
 
 ## 本项目结构如下：
 
