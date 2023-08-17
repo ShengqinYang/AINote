@@ -95,6 +95,7 @@ print(conversation)
 <hr />
 
 #### 3、LangChain的架构
+见AI-LanChain.xmind
 ```text
 Model I/O
 
