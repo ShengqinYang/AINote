@@ -25,8 +25,55 @@ AINote
         openai_api  --使用openai原生api的相关学习code
     resource    --资源类，如图片
     conifg.ini  --配置文件，存放配置参数，用户调试时在自己环境中将online_config.ini更改为config.ini，并修改相关配置内容，pull request时切勿暴露私人配置内容
-    
+   
 ```
+```text
+├── README.md
+├── config.ini
+├── datas
+├── note
+├── online_config.ini
+├── project
+│    ├── langchain
+│    │    ├── 8.use_langchain.ipynb
+│    │    ├── agents
+│    │    │    ├── __init__.py
+│    │    │    ├── openai_function.ipynb
+│    │    │    ├── react.ipynb
+│    │    │    └── self_ask_with_search.ipynb
+│    │    ├── chains
+│    │    │    ├── 8.homework_router_chain.ipynb
+│    │    │    ├── __init__.py
+│    │    │    ├── router_chain.ipynb
+│    │    │    ├── sequential_chain.ipynb
+│    │    │    └── transform_chain.ipynb
+│    │    ├── data_connection
+│    │    │    ├── __init__.py
+│    │    │    ├── document_loader.ipynb
+│    │    │    ├── document_transformers.ipynb
+│    │    │    ├── text_embedding.ipynb
+│    │    │    └── vector_stores.ipynb
+│    │    ├── memory
+│    │    │    ├── __init__.py
+│    │    │    └── mermory.ipynb
+│    │    └── model_io
+│    │        ├── __init__.py
+│    │        ├── model.ipynb
+│    │        ├── output_parser.ipynb
+│    │        └── prompt.ipynb
+│    ├── openai_api
+│    │    ├── 3.class_embeddings.ipynb
+│    │    ├── 4.class_models.ipynb
+│    │    ├── 4.class_tiktoken.ipynb
+│    │    └── 5.homework_function_call.ipynb
+│    └── python
+│        ├── example_chat_completion.md
+│        └── example_chat_completion.py
+│
+└── resource
+
+```
+
 ### 练习1：openai_api相关原生的API调用
 
 
