@@ -196,8 +196,79 @@ translator.translate_pdf(config.input_file,
 </div>
 
 
-### 第三、新增基于 Gradio 的图形化界面设计
+### 第三、新增基于 Gradio 的图形化界面设计；新增基于 Flask 的Web服务化API
 
-### 第四、新增基于 Flask 的Web服务化API
+- V-1.0 版本仅支持main.py启动项目
+- V-2.0 版本：
+  ```text
+  1、支持本地启动项目，启动文件 main.py
+  2、支持 Gradio 的图形化界面，启动文件 gradio_server.py
+  3、基于 Flask 的Web服务化API，启动文件 flask_server.py
+  ```
+
+```python
+ # 2、支持 Gradio 的图形化界面
+def launch_gradio():
+        
+    iface = gr.Interface(
+        fn=translation,
+        title="OpenAI-Translator v2.0(PDF 电子书翻译工具)",
+        inputs=[
+            gr.File(label="上传PDF文件"),
+            gr.Textbox(label="源语言（默认：英文）", placeholder="English", value="English"),
+            gr.Textbox(label="目标语言（默认：中文）", placeholder="Chinese", value="Chinese")
+        ],
+        outputs=[
+            gr.File(label="下载翻译文件")
+        ],
+        allow_flagging="never"
+    )
+
+    # iface.launch(share=True, server_name="0.0.0.0")
+    iface.launch()
+```
+
+```python
+# 3、基于 Flask 的Web服务化API
+@app.route('/translation', methods=['POST'])
+def translation():
+    try:
+        input_file = request.files['input_file']
+        source_language = request.form.get('source_language', 'English')
+        target_language = request.form.get('target_language', 'Chinese')
+
+        LOG.debug(f"[input_file]\n{input_file}")
+        LOG.debug(f"[input_file.filename]\n{input_file.filename}")
+
+        if input_file and input_file.filename:
+            # # 创建临时文件
+            input_file_path = TEMP_FILE_DIR+input_file.filename
+            LOG.debug(f"[input_file_path]\n{input_file_path}")
+
+            input_file.save(input_file_path)
+
+            # 调用翻译函数
+            output_file_path = Translator.translate_pdf(
+                input_file=input_file_path,
+                source_language=source_language,
+                target_language=target_language)
+            
+            # 移除临时文件
+            # os.remove(input_file_path)
+
+            # 构造完整的文件路径
+            output_file_path = os.getcwd() + "/" + output_file_path
+            LOG.debug(output_file_path)
+
+            # 返回翻译后的文件
+            return send_file(output_file_path, as_attachment=True)
+    except Exception as e:
+        response = {
+            'status': 'error',
+            'message': str(e)
+        }
+        return jsonify(response), 400
+```
+
 
 
