@@ -1,13 +1,18 @@
+import configparser
+
 import openai
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
 GPT_MODEL = "gpt-3.5-turbo"
 
 import os
+conf = configparser.ConfigParser()
+conf.read('../config.ini')
+
 
 os.environ["HTTP_PROXY"] = "http://127.0.0.1:1087"
 os.environ["HTTPS_PROXY"] = "http://127.0.0.1:1087"
-openai.api_key = "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"
+openai.api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 
