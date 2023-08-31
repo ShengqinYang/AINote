@@ -24,7 +24,7 @@ AINote
             agents    --访问其他的工具，比如：给chatgpt增加联网的功能，对接google搜索引擎
         openai_api  --使用openai原生api的相关学习code
     resource    --资源类，如图片
-    conifg.ini  --配置文件，存放配置参数，用户调试时在自己环境中将online_config.ini更改为config.ini，并修改相关配置内容，pull request时切勿暴露私人配置内容
+    conifg.ini  --配置文件，存放配置参数，并修改相关配置内容，pull request时切勿暴露私人配置内容
    
 ```
 ```text
