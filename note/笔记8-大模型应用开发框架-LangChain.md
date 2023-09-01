@@ -15,8 +15,7 @@
 ```
 
 
-#### 2、怎么使用LangChain？经典案例
-`./project/8.use_langchain.py` 
+#### [2、怎么使用LangChain？经典案例](../project/langchain)
 ```python
 import configparser
 
@@ -94,8 +93,8 @@ print(conversation)
 
 <hr />
 
-#### 3、LangChain的架构
-见AI-LanChain.xmind
+#### [3、LangChain的架构](../resource/AI-LangChain.xmind)
+![图片格式](../resource/AI-LangChain.png)  
 ```text
 Model I/O
 
