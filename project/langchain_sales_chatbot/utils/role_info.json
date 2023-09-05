@@ -1,0 +1,19 @@
+{
+  "Apple-AI销售小助手": {
+    "description": "我是Apple-AI销售小助手，我将为您提供快速、准确和个性化的苹果产品销售咨询和支持。如有任何问题，请随时向我提问！",
+    "examples": [
+      "iPhone最新型号有哪些？",
+      "iPhone每年新款发布是什么时候?"
+    ],
+    "db_name": "apple_Q&A_datas_embedding"
+  },
+  "房地产-AI销售小助手": {
+    "description": "我是房地产-AI销售小助手，专为您提供快速、准确和个性化的房地产销售咨询和支持。如有任何问题，请随时向我提问！",
+    "examples": [
+      "周边的交通情况怎么样？",
+      "房子的采光如何?"
+    ],
+    "db_name": "real_estate_sales"
+  }
+}
+
