@@ -1,0 +1,45 @@
+2023-08-27 17:13:53.493 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/dc8fd32c027c5f2f838fa7f3b0414829e8c5c569/maven学习踩坑之旅.pdf
+源语言: Chinese
+目标语言: English
+2023-08-27 17:13:53.553 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ 理解⼀个Maven项目和Python的不同之处
+1. Maven和Python虚拟环境的区别。
+1. Python为了解决不同的项目包版本不⼀样的问题，直接开辟了⼀个新的独立于系统本体之外的环境，即虚拟环境。
+2.Java是直接在将包的不同的版本放在同⼀个地⽅即： repository，通过各自项目配置各自的pom.xml来让maven加载相应的jar包。
+2.Maven是什么？
+1. 包管理⼯具，包的下载存放之类等，类似python的使用pip下载包，将包存放在各自项目对应的虚拟环境里等
+3.setting.xml是什么⼲嘛的？
+1. 设置maven参数的配置⽂件。并且，settings.xml是maven的全局配置⽂件。Settings.xml中包含类似本地仓储位置、修改远程仓储服
+务器、认证信息等配置。配置包的下载地址，源等配置信息
+4.Pom.xml是什么⼲嘛的？
+1. Pom.xml⽂件是所在项目的局部配置。 配置具体要使用到的包内容，在改⽂件里添加了包名，maven会自动下载；
+2.Java里确定唯⼀⼀个包的三个要点，groupId，artifactId，version
+5.repository是什么⼲嘛的？
+1. 包的具体存放地⽅：/Users/yangshengqin/myapps/maven/repository，等价python虚拟环境
+6.Java和Scala不需要像Python⼀样虚拟环境？
+1. 是的，因为在项目的pom.xml里指定里要使用的版本。项目回去 repositor y里找相应的版本
+2023-08-27 17:17:27.345 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/dc8fd32c027c5f2f838fa7f3b0414829e8c5c569/maven学习踩坑之旅.pdf
+源语言: Chinese
+目标语言: English
+2023-08-27 17:17:27.390 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ 理解⼀个Maven项目和Python的不同之处
+1. Maven和Python虚拟环境的区别。
+1. Python为了解决不同的项目包版本不⼀样的问题，直接开辟了⼀个新的独立于系统本体之外的环境，即虚拟环境。
+2.Java是直接在将包的不同的版本放在同⼀个地⽅即： repository，通过各自项目配置各自的pom.xml来让maven加载相应的jar包。
+2.Maven是什么？
+1. 包管理⼯具，包的下载存放之类等，类似python的使用pip下载包，将包存放在各自项目对应的虚拟环境里等
+3.setting.xml是什么⼲嘛的？
+1. 设置maven参数的配置⽂件。并且，settings.xml是maven的全局配置⽂件。Settings.xml中包含类似本地仓储位置、修改远程仓储服
+务器、认证信息等配置。配置包的下载地址，源等配置信息
+4.Pom.xml是什么⼲嘛的？
+1. Pom.xml⽂件是所在项目的局部配置。 配置具体要使用到的包内容，在改⽂件里添加了包名，maven会自动下载；
+2.Java里确定唯⼀⼀个包的三个要点，groupId，artifactId，version
+5.repository是什么⼲嘛的？
+1. 包的具体存放地⽅：/Users/yangshengqin/myapps/maven/repository，等价python虚拟环境
+6.Java和Scala不需要像Python⼀样虚拟环境？
+1. 是的，因为在项目的pom.xml里指定里要使用的版本。项目回去 repositor y里找相应的版本
+2023-08-27 17:17:56.593 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-08-27 17:17:56.594 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/dc8fd32c027c5f2f838fa7f3b0414829e8c5c569/maven学习踩坑之旅_translated.md
+2023-08-27 17:17:56.594 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/dc8fd32c027c5f2f838fa7f3b0414829e8c5c569/maven学习踩坑之旅_translated.md
