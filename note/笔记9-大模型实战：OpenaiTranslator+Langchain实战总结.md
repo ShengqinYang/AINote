@@ -1,4 +1,5 @@
 ## 进阶篇：学习笔记：结合 OpenAI-Translator 与 Langchain 大模型开发框架，优化OpenAI-Translator项目
+### 第一部分：OpenAI-Translator V-1.0 与 V-2.0总结
 - 项目地址：https://github.com/ShengqinYang/openai-quickstart/tree/main/langchain/openai-translator
 - Fork From：https://github.com/DjangoPeng/openai-quickstart/tree/main/langchain/openai-translator
 
@@ -76,8 +77,8 @@ openai-translator
 </div>
 </div>
 
-## 整体对比：
-### 第一、模型调用优化
+### 整体对比：
+#### 第一、模型调用优化
 * V-1.0：使用各个模型自己的原生的api，举例：使用openai的模型，需要自定义封装调用ChatCompletion和Completion API，构造prompt、构造请求等
 * V-2.0：使用Langchain封装的统一的模型接口，用一个LLMChain，传入相应的模型名称即可，使用统一的Prompt，以及构造请求。具体code：translation_chain.py
   ```python
@@ -133,7 +134,7 @@ V-2.0 优化：
 </div>
 
 
-### 第二、项目参数配置优化
+#### 第二、项目参数配置优化
 - V-1.0，项目启动配置比较复杂没有很好的封装
 - V-2.0，使用单例模式进行全局配置管理，封装了TranslationConfig类，具体code：translation_config.py
 - 调用对比
@@ -196,7 +197,7 @@ translator.translate_pdf(config.input_file,
 </div>
 
 
-### 第三、新增基于 Gradio 的图形化界面设计；新增基于 Flask 的Web服务化API
+#### 第三、新增基于 Gradio 的图形化界面设计；新增基于 Flask 的Web服务化API
 
 - V-1.0 版本仅支持main.py启动项目
 - V-2.0 版本：
@@ -271,4 +272,18 @@ def translation():
 ```
 
 
+### 第二部分：课后习题
+  - 在 openai-translator gradio 图形化界面基础上，支持风格化翻译，如：小说、新闻稿、作家风格等。
+  - 添加一些按钮，按钮对应function，预置风格化的翻译，如：小说、新闻稿、特定作家风格(鲁迅)等
+  - 新功能：
+    - 1.支持多语言；
+    - 2.支持多输出文件格式， 新增word格式输出；
+    - 3.支持多翻译风格；
+    - 4.新增下拉框选项
+  - [项目代码](../project/langchain_openai_translator/ai_translator/gradio_server.py)
+  - [项目启动说明](../project/langchain_openai_translator/README.md)
+  - [展示](../resource/homework_openai_translator_v2.0.png)
+
+
+  
 

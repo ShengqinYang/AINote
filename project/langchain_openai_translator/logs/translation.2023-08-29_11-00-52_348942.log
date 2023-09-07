@@ -1,0 +1,122 @@
+2023-08-29 11:00:52.341 | DEBUG    | __main__:translation:22 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:00:52.352 | DEBUG    | __main__:translation:23 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:00:52.357 | DEBUG    | __main__:translation:28 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 11:01:48.742 | DEBUG    | __main__:translation:22 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:01:48.744 | DEBUG    | __main__:translation:23 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:01:48.744 | DEBUG    | __main__:translation:28 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 11:04:36.100 | DEBUG    | __main__:translation:22 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:04:36.110 | DEBUG    | __main__:translation:23 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:04:36.111 | DEBUG    | __main__:translation:28 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 11:04:36.154 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model
+by OpenAI. These samples include a markdown table and an English text passage,
+which can be used to test an English-to-Chinese translation software supporting both
+text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of
+the English alphabet at least once. Pangrams are often used to test fonts, keyboards,
+and other text-related tools. In addition to English, there are pangrams in many other
+languages. Some pangrams are more difficult to construct due to the unique
+characteristics of the language.
+2023-08-29 11:19:36.135 | DEBUG    | __main__:translation:22 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:19:36.136 | DEBUG    | __main__:translation:23 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:19:36.137 | DEBUG    | __main__:translation:28 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 11:19:36.187 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model
+by OpenAI. These samples include a markdown table and an English text passage,
+which can be used to test an English-to-Chinese translation software supporting both
+text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of
+the English alphabet at least once. Pangrams are often used to test fonts, keyboards,
+and other text-related tools. In addition to English, there are pangrams in many other
+languages. Some pangrams are more difficult to construct due to the unique
+characteristics of the language.
+2023-08-29 11:19:37.838 | ERROR    | translator.translation_chain:run:45 - An error occurred during translation: Incorrect API key provided: qEzC5U8U************************************BK9b. You can find your API key at https://platform.openai.com/account/api-keys.
+2023-08-29 11:19:37.839 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-08-29 11:19:37.839 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: flask_temps/cesi_translated.md
+2023-08-29 11:19:37.839 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: flask_temps/cesi_translated.md
+2023-08-29 11:19:37.840 | DEBUG    | __main__:translation:43 - /Users/yangshengqin/mygithub/openai-quickstart/langchain/openai-translator/flask_temps/cesi_translated.md
+2023-08-29 11:25:46.185 | DEBUG    | __main__:translation:21 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:25:46.197 | DEBUG    | __main__:translation:22 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:25:46.198 | DEBUG    | __main__:translation:30 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 11:25:46.250 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model
+by OpenAI. These samples include a markdown table and an English text passage,
+which can be used to test an English-to-Chinese translation software supporting both
+text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of
+the English alphabet at least once. Pangrams are often used to test fonts, keyboards,
+and other text-related tools. In addition to English, there are pangrams in many other
+languages. Some pangrams are more difficult to construct due to the unique
+characteristics of the language.
+2023-08-29 11:25:47.793 | ERROR    | translator.translation_chain:run:45 - An error occurred during translation: Incorrect API key provided: qEzC5U8U************************************BK9b. You can find your API key at https://platform.openai.com/account/api-keys.
+2023-08-29 11:25:47.795 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-08-29 11:25:47.795 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: flask_temps/cesi_translated.md
+2023-08-29 11:25:47.796 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: flask_temps/cesi_translated.md
+2023-08-29 11:25:47.796 | DEBUG    | __main__:translation:45 - /Users/yangshengqin/mygithub/openai-quickstart/langchain/openai-translator/flask_temps/cesi_translated.md
+2023-08-29 11:30:54.075 | DEBUG    | __main__:translation:21 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 11:30:54.076 | DEBUG    | __main__:translation:22 - [input_file.filename]
+cesi.pdf
+2023-08-29 11:30:54.077 | DEBUG    | __main__:translation:29 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 13:55:06.502 | DEBUG    | __main__:translation:21 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 13:55:06.505 | DEBUG    | __main__:translation:22 - [input_file.filename]
+cesi.pdf
+2023-08-29 13:55:06.505 | DEBUG    | __main__:translation:30 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 13:55:06.552 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model
+by OpenAI. These samples include a markdown table and an English text passage,
+which can be used to test an English-to-Chinese translation software supporting both
+text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of
+the English alphabet at least once. Pangrams are often used to test fonts, keyboards,
+and other text-related tools. In addition to English, there are pangrams in many other
+languages. Some pangrams are more difficult to construct due to the unique
+characteristics of the language.
+2023-08-29 13:56:28.004 | DEBUG    | __main__:translation:21 - [input_file]
+<FileStorage: 'cesi.pdf' ('application/pdf')>
+2023-08-29 13:56:28.006 | DEBUG    | __main__:translation:22 - [input_file.filename]
+cesi.pdf
+2023-08-29 13:56:28.007 | DEBUG    | __main__:translation:30 - [input_file_path]
+flask_temps/cesi.pdf
+2023-08-29 13:56:28.057 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model
+by OpenAI. These samples include a markdown table and an English text passage,
+which can be used to test an English-to-Chinese translation software supporting both
+text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of
+the English alphabet at least once. Pangrams are often used to test fonts, keyboards,
+and other text-related tools. In addition to English, there are pangrams in many other
+languages. Some pangrams are more difficult to construct due to the unique
+characteristics of the language.
+2023-08-29 13:57:34.691 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-08-29 13:57:34.691 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: flask_temps/cesi_translated.md
+2023-08-29 13:57:34.691 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: flask_temps/cesi_translated.md
+2023-08-29 13:57:34.691 | DEBUG    | __main__:translation:45 - /Users/yangshengqin/mygithub/openai-quickstart/langchain/openai-translator/flask_temps/cesi_translated.md

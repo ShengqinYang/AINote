@@ -1,0 +1,610 @@
+2023-09-07 10:34:45.616 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: news release
+2023-09-07 10:34:45.686 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:35:50.597 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: news release
+2023-09-07 10:35:50.730 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:36:55.678 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-07 10:36:55.679 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 10:36:55.679 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 10:39:01.222 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-07 10:39:01.223 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 10:39:01.224 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 10:42:10.347 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 10:42:10.413 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:51:11.151 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 10:51:11.212 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:53:25.083 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 10:53:25.144 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:54:01.924 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 10:54:01.982 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 10:56:18.207 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 10:56:18.268 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 11:01:03.762 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 11:01:03.819 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 11:13:46.755 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 11:13:46.755 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/da39a3ee5e6b4b0d3255bfef95601890afd80709/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 11:13:46.816 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 11:13:47.355 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+翻译风格: novel
+2023-09-07 11:13:47.399 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 11:14:16.252 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-07 11:14:16.253 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 11:14:16.255 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 11:14:21.262 | DEBUG    | translator.writer:save_translated_book:18 - markdown
+2023-09-07 11:14:21.263 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 11:14:21.265 | INFO     | translator.writer:save_translated_book:28 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated.md
+2023-09-07 14:56:01.778 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/c5cc0131c29f7114f857f35f80acee041c1a4374/test.pdf
+源语言: English
+目标语言: Chinese
+输出文件格式: pdf
+翻译风格: 鲁迅
+2023-09-07 14:56:01.860 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ Test Data
+This dataset contains two test samples provided by ChatGPT, an AI language model by OpenAI.
+These samples include a markdown table and an English text passage, which can be used to test an
+English-to-Chinese translation software supporting both text and table formats.
+Text testing
+The quick brown fox jumps over the lazy dog. This pangram contains every letter of the English
+alphabet at least once. Pangrams are often used to test fonts, keyboards, and other text-related
+tools. In addition to English, there are pangrams in many other languages. Some pangrams are more
+difficult to construct due to the unique characteristics of the language.
+Table Testing
+2023-09-07 14:56:01.865 | DEBUG    | translator.pdf_parser:parse_pdf:54 - [table]
+[Fruit, Color, Price (USD)] [Apple, Red, 1.20] [Banana, Yellow, 0.50] [Orange, Orange, 0.80] [Strawberry, Red, 2.50] [Blueberry, Blue, 3.00] [Kiwi, Green, 1.00] [Mango, Orange, 1.50] [Grape, Purple, 2.00]
+2023-09-07 15:00:07.511 | DEBUG    | book.content:set_translation:54 - [translation]
+【水果，颜色，价格（美元）】 【苹果，红色，1.20】 【香蕉，黄色，0.50】 【橙子，橙色，0.80】 【草莓，红色，2.50】 【蓝莓，蓝色，3.00】 【猕猴桃，绿色，1.00】 【芒果，橙色，1.50】 【葡萄，紫色，2.00】
+2023-09-07 15:00:07.524 | DEBUG    | book.content:set_translation:63 - [translated_df]
+Empty DataFrame
+Columns: [水果，颜色，价格（美元）】 【苹果，红色，1.20】 【香蕉，黄色，0.50】 【橙子，橙色，0.80】 【草莓，红色，2.50】 【蓝莓，蓝色，3.00】 【猕猴桃，绿色，1.00】 【芒果，橙色，1.50】 【葡萄，紫色，2.00】]
+Index: []
+2023-09-07 15:00:07.524 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2023-09-07 15:00:07.525 | INFO     | translator.writer:_save_translated_book_pdf:37 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/c5cc0131c29f7114f857f35f80acee041c1a4374/test_translated_鲁迅.pdf
+2023-09-07 15:13:51.427 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release.pdf
+源语言: English
+目标语言: Chinese
+输出文件格式: pdf
+翻译风格: press releases
+2023-09-07 15:13:51.478 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 15:14:20.867 | DEBUG    | translator.writer:save_translated_book:19 - pdf
+2023-09-07 15:14:20.868 | INFO     | translator.writer:_save_translated_book_pdf:37 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated_press releases.pdf
+2023-09-07 15:14:21.092 | INFO     | translator.writer:save_translated_book:31 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/press_release_translated_press releases.pdf
+2023-09-07 15:25:36.837 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: English
+输出文件格式: markdown
+翻译风格: press releases
+2023-09-07 15:25:36.890 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ ⾃从泰晤⼠河的部分地区被宣布为“⽣物死亡”以来，仅仅过去了半个世纪，因为河⽔太脏。
+但是现在，泰晤⼠河的⽔质⽐任何时候都要清洁，企业家们希望在伦敦市中⼼的泰晤⼠河中建
+造⼀个价值1000万英镑的露天游泳池。
+来⾃德国的净化专家（德国拥有欧洲最⾼的⽔质标准）设计了⼀个系统，该计划的⽀持者表
+示，这个系统将确保游客的安全，⽆论年龄⼤⼩。
+泰晤⼠河的浴池位于伦敦堤岸的庙阶，周围环绕着芦苇床，⽤于过滤河⽔，然后将其泵⼊82
+英尺乘32英尺的主游泳池，游泳池下⽅的甲板上还有⼀个次级过滤装置。由于下⾬时的污⽔
+溢出和喜剧演员⼤卫·沃利姆斯在2011年进⾏的⼀次⻓达140英⾥的慈善游泳中患上了“泰晤
+⼠肚”，⼈们对该项⽬提出了健康担忧。但是，德国Polyplan公司的专家提出了⼀个解决⽅
+案。该公司在整个欧洲建造了许多天然游泳池。参与该项⽬的英国公司Gartenart的蒂姆·
+埃⽂斯表示，这个未加热且⽆氯的⽔将“和你在⼭湖中找到的任何⽔⼀样⼲净”。
+这个游泳池将设有更⾐室、⼀条从岸边通向⽔中的130英尺的斜坡、⼀个浸泡池和⼀个⼉童戏
+⽔区，⽽⼀道4英尺⾼的玻璃栏杆将保护游泳者免受河流交通引起的波浪的影响。伦敦建筑事
+务所Studio Octopi的克⾥斯·罗默-李表示，他希望通过众筹筹集30万英镑的初始资⾦，
+⽤于咨询费⽤和其他费⽤，众筹是指公众可以为社区计划做出贡献。
+如果获得规划许可，这个游泳池可能会在明年晚些时候开放。
+2023-09-07 15:25:52.460 | DEBUG    | translator.writer:save_translated_book:19 - markdown
+2023-09-07 15:25:52.465 | INFO     | translator.writer:_save_translated_book_markdown:90 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH_translated_press releases.md
+2023-09-07 15:25:52.467 | INFO     | translator.writer:save_translated_book:31 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH_translated_press releases.md
+2023-09-07 15:39:21.152 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: English
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:39:21.200 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ ⾃从泰晤⼠河的部分地区被宣布为“⽣物死亡”以来，仅仅过去了半个世纪，因为河⽔太脏。
+但是现在，泰晤⼠河的⽔质⽐任何时候都要清洁，企业家们希望在伦敦市中⼼的泰晤⼠河中建
+造⼀个价值1000万英镑的露天游泳池。
+来⾃德国的净化专家（德国拥有欧洲最⾼的⽔质标准）设计了⼀个系统，该计划的⽀持者表
+示，这个系统将确保游客的安全，⽆论年龄⼤⼩。
+泰晤⼠河的浴池位于伦敦堤岸的庙阶，周围环绕着芦苇床，⽤于过滤河⽔，然后将其泵⼊82
+英尺乘32英尺的主游泳池，游泳池下⽅的甲板上还有⼀个次级过滤装置。由于下⾬时的污⽔
+溢出和喜剧演员⼤卫·沃利姆斯在2011年进⾏的⼀次⻓达140英⾥的慈善游泳中患上了“泰晤
+⼠肚”，⼈们对该项⽬提出了健康担忧。但是，德国Polyplan公司的专家提出了⼀个解决⽅
+案。该公司在整个欧洲建造了许多天然游泳池。参与该项⽬的英国公司Gartenart的蒂姆·
+埃⽂斯表示，这个未加热且⽆氯的⽔将“和你在⼭湖中找到的任何⽔⼀样⼲净”。
+这个游泳池将设有更⾐室、⼀条从岸边通向⽔中的130英尺的斜坡、⼀个浸泡池和⼀个⼉童戏
+⽔区，⽽⼀道4英尺⾼的玻璃栏杆将保护游泳者免受河流交通引起的波浪的影响。伦敦建筑事
+务所Studio Octopi的克⾥斯·罗默-李表示，他希望通过众筹筹集30万英镑的初始资⾦，
+⽤于咨询费⽤和其他费⽤，众筹是指公众可以为社区计划做出贡献。
+如果获得规划许可，这个游泳池可能会在明年晚些时候开放。
+2023-09-07 15:41:09.534 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: English
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:41:09.582 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ ⾃从泰晤⼠河的部分地区被宣布为“⽣物死亡”以来，仅仅过去了半个世纪，因为河⽔太脏。
+但是现在，泰晤⼠河的⽔质⽐任何时候都要清洁，企业家们希望在伦敦市中⼼的泰晤⼠河中建
+造⼀个价值1000万英镑的露天游泳池。
+来⾃德国的净化专家（德国拥有欧洲最⾼的⽔质标准）设计了⼀个系统，该计划的⽀持者表
+示，这个系统将确保游客的安全，⽆论年龄⼤⼩。
+泰晤⼠河的浴池位于伦敦堤岸的庙阶，周围环绕着芦苇床，⽤于过滤河⽔，然后将其泵⼊82
+英尺乘32英尺的主游泳池，游泳池下⽅的甲板上还有⼀个次级过滤装置。由于下⾬时的污⽔
+溢出和喜剧演员⼤卫·沃利姆斯在2011年进⾏的⼀次⻓达140英⾥的慈善游泳中患上了“泰晤
+⼠肚”，⼈们对该项⽬提出了健康担忧。但是，德国Polyplan公司的专家提出了⼀个解决⽅
+案。该公司在整个欧洲建造了许多天然游泳池。参与该项⽬的英国公司Gartenart的蒂姆·
+埃⽂斯表示，这个未加热且⽆氯的⽔将“和你在⼭湖中找到的任何⽔⼀样⼲净”。
+这个游泳池将设有更⾐室、⼀条从岸边通向⽔中的130英尺的斜坡、⼀个浸泡池和⼀个⼉童戏
+⽔区，⽽⼀道4英尺⾼的玻璃栏杆将保护游泳者免受河流交通引起的波浪的影响。伦敦建筑事
+务所Studio Octopi的克⾥斯·罗默-李表示，他希望通过众筹筹集30万英镑的初始资⾦，
+⽤于咨询费⽤和其他费⽤，众筹是指公众可以为社区计划做出贡献。
+如果获得规划许可，这个游泳池可能会在明年晚些时候开放。
+2023-09-07 15:41:27.051 | DEBUG    | translator.writer:save_translated_book:21 - Word
+2023-09-07 15:41:27.052 | ERROR    | translator.writer:save_translated_book:33 - 不支持文件类型: Word
+2023-09-07 15:43:18.775 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: English
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:43:18.820 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ ⾃从泰晤⼠河的部分地区被宣布为“⽣物死亡”以来，仅仅过去了半个世纪，因为河⽔太脏。
+但是现在，泰晤⼠河的⽔质⽐任何时候都要清洁，企业家们希望在伦敦市中⼼的泰晤⼠河中建
+造⼀个价值1000万英镑的露天游泳池。
+来⾃德国的净化专家（德国拥有欧洲最⾼的⽔质标准）设计了⼀个系统，该计划的⽀持者表
+示，这个系统将确保游客的安全，⽆论年龄⼤⼩。
+泰晤⼠河的浴池位于伦敦堤岸的庙阶，周围环绕着芦苇床，⽤于过滤河⽔，然后将其泵⼊82
+英尺乘32英尺的主游泳池，游泳池下⽅的甲板上还有⼀个次级过滤装置。由于下⾬时的污⽔
+溢出和喜剧演员⼤卫·沃利姆斯在2011年进⾏的⼀次⻓达140英⾥的慈善游泳中患上了“泰晤
+⼠肚”，⼈们对该项⽬提出了健康担忧。但是，德国Polyplan公司的专家提出了⼀个解决⽅
+案。该公司在整个欧洲建造了许多天然游泳池。参与该项⽬的英国公司Gartenart的蒂姆·
+埃⽂斯表示，这个未加热且⽆氯的⽔将“和你在⼭湖中找到的任何⽔⼀样⼲净”。
+这个游泳池将设有更⾐室、⼀条从岸边通向⽔中的130英尺的斜坡、⼀个浸泡池和⼀个⼉童戏
+⽔区，⽽⼀道4英尺⾼的玻璃栏杆将保护游泳者免受河流交通引起的波浪的影响。伦敦建筑事
+务所Studio Octopi的克⾥斯·罗默-李表示，他希望通过众筹筹集30万英镑的初始资⾦，
+⽤于咨询费⽤和其他费⽤，众筹是指公众可以为社区计划做出贡献。
+如果获得规划许可，这个游泳池可能会在明年晚些时候开放。
+2023-09-07 15:43:35.533 | DEBUG    | translator.writer:save_translated_book:21 - Word
+2023-09-07 15:43:35.534 | INFO     | translator.writer:_save_translated_book_word:123 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+2023-09-07 15:43:35.578 | INFO     | translator.writer:_save_translated_book_word:165 - 翻译完成: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+2023-09-07 15:43:35.578 | INFO     | translator.writer:save_translated_book:36 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+2023-09-07 15:46:07.627 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: French
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:46:27.024 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/a828382b51fce370da668b4dd304eabea92b166d/ThamesNewsCH.pdf
+源语言: Chinese
+目标语言: French
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:47:15.075 | DEBUG    | __main__:translation:12 - [翻译任务]
+源文件: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/ThamesNewsEN.pdf
+源语言: English
+目标语言: French
+输出文件格式: Word
+翻译风格: novel
+2023-09-07 15:47:15.242 | DEBUG    | translator.pdf_parser:parse_pdf:46 - [raw_text]
+ It is barely half a century since parts of the Thames were
+declared ‘biologically dead’ because the river was so dirty.But with
+the water now cleaner than at any time in living memory,
+entrepreneurs want to build a 10 million open-air swimming pool in
+the middle of the Thames in Central London.
+Purification specialists from Germany – which has the highest water
+cleanliness standards in Europe – have designed a system which the
+scheme’s backers say will ensure that bathing is safe for visitors
+of all ages.
+The Thames Baths at Temple Stairs on the Embankment will be
+surrounded by reed beds to filter water from the river before it is
+pumped into the 82ft by 32ft main lap pool, with a secondary
+filtration device underneath the poolside decking.Health concerns
+have been raised about the project because of sewage overflows
+during heavy rain and the experience of comedian David Walliams, who
+suffered a bout of ‘Thames tummy’ during a 140-mile charity swim in
+2011.But experts from German firm Polyplan, which has built natural
+swimming pools all over Europe, have come up with a solution.Tim
+Evans, director of British firm Gartenart, which is working on the
+project, said the water – unheated and chlorine-free – will be ‘as
+clean as anything you would find in a mountain lake’。
+The lido will have changing rooms, a 130ft ramp leading from the
+shore to the water, a plunge pool and a children’s paddling area,
+while a 4ft-high glass balustrade will protect swimmers from waves
+caused by river traffic.Chris Romer-Lee, of Studio Octopi – the
+London architects behind the scheme – said he hoped an initial
+300,000 to cover consultancy costs and other fees would be raised by
+crowd-funding, where members of the public can contribute to
+community schemes.
+If planning permission is granted, the lido could open late next
+year.
+2023-09-07 15:47:39.390 | DEBUG    | translator.writer:save_translated_book:21 - Word
+2023-09-07 15:47:39.392 | INFO     | translator.writer:_save_translated_book_word:123 - 开始导出: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/ThamesNewsEN_translated_novel.docx
+2023-09-07 15:47:39.434 | INFO     | translator.writer:_save_translated_book_word:165 - 翻译完成: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/ThamesNewsEN_translated_novel.docx
+2023-09-07 15:47:39.435 | INFO     | translator.writer:save_translated_book:36 - 翻译完成，文件保存至: /var/folders/33/xqd2f50x2qz5lyrrx621d81c0000gn/T/gradio/d75f131f32a1c8a08ebc03ba32fa324692080dde/ThamesNewsEN_translated_novel.docx
