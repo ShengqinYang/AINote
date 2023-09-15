@@ -5,7 +5,7 @@
 
 - OpenAI-Translator项目，新旧结构对比：
 
-<div style="display: flex; justify-content: center;">
+<div style="display: flex; ">
 <div style="flex-grow: 0;">
 
 
@@ -86,8 +86,8 @@ openai-translator
    chain = LLMChain(llm=chat, prompt=chat_prompt_template, verbose=verbose)
   ```
 
-<div style="display: flex; justify-content: center;">
-<div style="flex-grow: 1;">
+<div style="display: flex;">
+<div style="flex-grow: 0;">
  
 ```plaintext 
 V-1.0 痛点：
@@ -109,7 +109,7 @@ V-1.0 痛点：
 ```  
  </div>
 
-<div style="flex-grow: 1;">
+<div style="flex-grow: 0;">
 
 ```plaintext
 V-2.0 优化：
@@ -138,7 +138,7 @@ V-2.0 优化：
 - V-1.0，项目启动配置比较复杂没有很好的封装
 - V-2.0，使用单例模式进行全局配置管理，封装了TranslationConfig类，具体code：translation_config.py
 - 调用对比
-<div style="display: flex; justify-content: center;">
+<div style="display: flex;">
 <div style="flex-grow: 0;">
 
 ```python
@@ -166,7 +166,7 @@ translator.translate_pdf(pdf_file_path, file_format)
 ```
  </div>
 
-<div style="flex-grow: 1;">
+<div style="flex-grow: 0;">
 
 
 ```python
