@@ -6,7 +6,7 @@
 - OpenAI-Translator项目，新旧结构对比：
 
 <div style="display: flex; justify-content: center;">
-<div style="flex-grow: 1;">
+<div style="flex-grow: 0;">
 
 
 ```plaintext 
@@ -41,7 +41,7 @@ openai-translator
 ```  
  </div>
 
-<div style="flex-grow: 1;">
+<div style="flex-grow: 0;">
 
 ```plaintext
 V-2.0 结构：
@@ -88,6 +88,7 @@ openai-translator
 
 <div style="display: flex; justify-content: center;">
 <div style="flex-grow: 1;">
+ 
 ```plaintext 
 V-1.0 痛点：
 
