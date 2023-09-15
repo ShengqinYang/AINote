@@ -88,7 +88,6 @@ openai-translator
 
 <div style="display: flex; justify-content: center;">
 <div style="flex-grow: 1;">
-
 ```plaintext 
 V-1.0 痛点：
 
@@ -273,8 +272,9 @@ def translation():
 
 
 ### 第二部分：课后习题
-  - 在 openai-translator gradio 图形化界面基础上，支持风格化翻译，如：小说、新闻稿、作家风格等。
-  - 添加一些按钮，按钮对应function，预置风格化的翻译，如：小说、新闻稿、特定作家风格(鲁迅)等
+  - 1.在 openai-translator gradio 图形化界面基础上，支持风格化翻译，如：小说、新闻稿、作家风格等。
+  - 2.添加一些按钮，按钮对应function，预置风格化的翻译，如：小说、新闻稿、特定作家风格(鲁迅)等
+  - 3.基于 ChatGLM2-6B 实现图形化界面 的 openai-translator
   - 新功能：
     - 1.支持多语言；
     - 2.支持多输出文件格式， 新增word格式输出；
