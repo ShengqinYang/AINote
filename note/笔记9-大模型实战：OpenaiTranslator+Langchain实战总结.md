@@ -1,4 +1,4 @@
-## 进阶篇：学习笔记：结合 OpenAI-Translator 与 Langchain 大模型开发框架，优化OpenAI-Translator项目
+## 进阶篇：结合 OpenAI-Translator 与 Langchain 大模型开发框架，优化OpenAI-Translator项目
 ### 第一部分：OpenAI-Translator V-1.0 与 V-2.0总结
 - 项目地址：https://github.com/ShengqinYang/openai-quickstart/tree/main/langchain/openai-translator
 - Fork From：https://github.com/DjangoPeng/openai-quickstart/tree/main/langchain/openai-translator
@@ -272,7 +272,7 @@ def translation():
 ```
 
 
-### 第二部分：课后习题
+### 第二部分：课后习题【基于openai-translator V2.0】
   - 1.在 openai-translator gradio 图形化界面基础上，支持风格化翻译，如：小说、新闻稿、作家风格等。
   - 2.添加一些按钮，按钮对应function，预置风格化的翻译，如：小说、新闻稿、特定作家风格(鲁迅)等
   - 3.基于 ChatGLM2-6B 实现图形化界面 的 openai-translator

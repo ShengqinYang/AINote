@@ -85,6 +85,21 @@ export OPENAI_API_KEY="sk-xxx"
 python ai_translator/main.py --model_name "gpt-3.5-turbo" --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
 ```
 
+```bash
+# Based on the gradio_server graphical interface, supported ChatGLM
+# Set your api_key as an env variable
+export OPENAI_API_KEY="sk-xxx"
+# --model_name optional "chat_glm" or "gpt-3.5-turbo"
+python ai_translator/gradio_server.py --model_name "chat_glm"  --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
+```
+
+```bash
+# Based on the flask_server API pattern
+# Set your api_key as an env variable
+export OPENAI_API_KEY="sk-xxx"
+python ai_translator/flask_server.py --model_name "gpt-3.5-turbo" --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
+```
+
 ## License
 
 This project is licensed under the GPL-3.0 License. See the [LICENSE](LICENSE) file for details.
