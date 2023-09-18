@@ -84,6 +84,20 @@ export OPENAI_API_KEY="sk-xxx"
 python ai_translator/main.py --model_name "gpt-3.5-turbo" --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
 ```
 
+```bash
+# 基于gradio_server图形化界面
+# 将您的 api_key 设置为环境变量
+export OPENAI_API_KEY="sk-xxx"
+# --model_name 可选 "chat_glm" or "gpt-3.5-turbo"
+python ai_translator/gradio_server.py --model_name "chat_glm"  --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
+```
+
+```bash
+# 基于flask_server API接口模式
+# 将您的 api_key 设置为环境变量
+export OPENAI_API_KEY="sk-xxx"
+python ai_translator/flask_server.py --model_name "gpt-3.5-turbo" --input_file "your_input.pdf" --output_file_format "markdown" --source_language "English" --target_language "Chinese"
+```
 ## 许可证
 
 该项目采用 GPL-3.0 许可证。有关详细信息，请查看 [LICENSE](LICENSE) 文件。
