@@ -5,8 +5,16 @@ from langchain.vectorstores import FAISS
 from langchain.text_splitter import CharacterTextSplitter
 import configparser, os
 
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+if not OPENAI_API_KEY:
+    conf = configparser.ConfigParser()
+    current_directory = os.path.dirname(os.path.realpath('__file__'))
+    config_file_path = os.path.join(current_directory, '..', '..', 'config.ini')
+    conf.read(config_file_path)
+    api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
+    os.environ['OPENAI_API_KEY'] = api_key
+
 chat_model = "gpt-3.5-turbo"
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
 def read_file(file_name):
@@ -51,7 +59,7 @@ def query_db(db_name, query):
     db = FAISS.load_local(db_name, OpenAIEmbeddings())
     retriever = db.as_retriever(
         search_type="similarity_score_threshold",
-        search_kwargs={"score_threshold": 0.7, 'k': 1, "fetch_k": 2}  # 按相关性去查找, k默认返回几条
+        search_kwargs={"score_threshold": 0.8, 'k': 1, "fetch_k": 2}  # 按相关性去查找, k默认返回几条
 
     )
     docs = retriever.get_relevant_documents(query)
@@ -83,8 +91,20 @@ if __name__ == "__main__":
     db_name = "apple_Q&A_datas_embedding"
     split_str = r'\d+\.'
 
-    query = "iphone最新型号有哪些？"
+    # query = "iphone最新型号有哪些？"
+    # query = "北京今天天气怎么样？"
+    # query = "2023年iphone什么时候发布？"
+    query = "2023年iPhone都发布什么型号？"
+    # query = "北京朝阳区的苹果实体店有哪些？"
+    # query = "四川省的省会是哪里？"
     # query = "周边的交通如何？"
     # result = main(file_name, db_name, split_str) # 读取文本、分割文本、向量化、存到向量数据库
+    # db = FAISS.load_local(db_name, OpenAIEmbeddings())
+    # q = "2023年iphone什么时候发布"
+    # a = "2023年iPhone将于9月13日发布。"
+    # qa = f"[客户问题] {q}\n[销售回答] {a}"
+    # db.add_texts([qa])
+    # db.save_local(folder_path=db_name)
     result = query_db(db_name, query)  # 从向量数据库检索
+
     print(result)

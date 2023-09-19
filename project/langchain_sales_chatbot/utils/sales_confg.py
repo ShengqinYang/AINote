@@ -31,6 +31,7 @@ class SalesConfig:
             config["description"] = role_info[title].get("description")
             config["examples"] = role_info[title].get("examples")
             config["db_name"] = role_info[title].get("db_name")
+            config["role_prompt"] = role_info[title].get("role_prompt")
             # Store the original config dictionary
             self._instance._config = config
         else:
