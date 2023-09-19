@@ -1,30 +1,27 @@
-## 基于知识库的房产销售 Sales-Consultant
-
-
-- 结果展示
-  ![img.png](files/Apple-AI销售小助手.png)
-  ![img_2.png](files/房地产-AI销售小助手.png)
-
 ## 基于知识库的销售机器人
 
 销售机器人是一个智能销售助手，旨在帮助您提供快速而准确的销售咨询和答案。该项目目前支持两个应用场景："房地产-AI销售小助手"
 和"Apple-AI销售小助手"。
 
 ### 功能特点
+- 支持多个AI模型：销售机器人具备灵活性，支持使用不同的AI模型。它可以与ChatGLM（TODO ing）和OpenAI等模型进行集成，以提供更多的选择和优化。
 
 - 基于知识库的Q&A问答对：销售机器人使用向量数据库来存储和检索问题和答案的对应关系。通过对知识库中的问题和答案进行向量化，销售机器人能够快速地从数据库中检索相关的答案。
 
-- 支持多个AI模型：销售机器人具备灵活性，支持使用不同的AI模型。它可以与ChatGLM和OpenAI等模型进行集成，以提供更多的选择和优化。
+- Google 搜索对接：支持大模型调用google search API，https://serpapi.com
 
-- 图形用户界面(GUI)：为了更加便于使用，销售机器人实现了一个直观的图形用户界面。通过GUI，您可以轻松与机器人进行交互，提出问题并查看相应的答案。
+- 动态更新向量数据库Q&A问答对：销售机器人会将与本机器人相关性高的问答对存储到当前的向量数据库中，以便提高回答准确性和覆盖范围。这样，随着时间的推移，机器人将变得更加智能和适应性强。
 
-- 灵活的配置选项：销售机器人允许您通过YAML文件或命令行参数进行灵活的配置。您可以轻松定义向量数据库、AI模型的选择、界面样式以及其他相关参数，以满足您的具体需求。
+- 图形用户界面(GUI)：为了更加便于使用，销售机器人实现了一个基于Gradio的图形用户界面。通过GUI，您可以轻松与机器人进行交互，提出问题并查看相应的答案。
+
 
 ### 如何使用
+
 - 1.克隆仓库 `git clone git@github.com:ShengqinYang/AINote.git`
 - 2.需要 Python 3.10 或更高版本。使用 `pip install -r requirements.txt` 安装依赖项。
 - 3.设置您的 OpenAI API 密钥($OPENAI_API_KEY)、SERPAPI_API_KEY。您可以将其添加到环境变量中。
 - 项目启动步骤：
+
 ```linux
 cd AINote/project/langchain_sales_chatbot
 export OPENAI_API_KEY='openai apikey'
@@ -32,15 +29,14 @@ export SERPAPI_API_KEY='serpapi_api_key'
 python sales_chatbot.py
 or
 python sales_chatbot.py --title="房地产-AI销售小助手" --enable_chat=False
+
 ```
 
-- 配置向量数据库：运行销售机器人之前，请确保您已经配置了正确的向量数据库。您可以按照项目文档中的说明进行设置，以确保机器人能够正确地检索问答对。
-
-- 配置AI模型：根据您的选择，配置合适的AI模型。您可以使用ChatGLM或OpenAI等模型，根据项目文档中的说明进行设置。
-
-- 启动图形用户界面：运行销售机器人应用程序，并启动图形用户界面。它将为您提供一个直观的界面来与机器人进行交互。
-
-- 提出问题：在图形用户界面中，您可以输入问题并等待机器人的答案。销售机器人将尽力提供准确和有用的回答。
+- 结果展示
+  ![img.png](files/Apple-AI销售小助手.png)
+  ![img_2.png](files/Apple-AI-support-search_api.png)
+  ![img_2.png](files/房地产-AI销售小助手.png)
+  
 
 ### 贡献
 
@@ -50,8 +46,7 @@ python sales_chatbot.py --title="房地产-AI销售小助手" --enable_chat=Fals
 
 如果您对项目有任何疑问或建议，请随时通过以下方式与我们联系：
 
-- 电子邮件：[您的邮箱地址]
-- 提交问题：[项目的Issue页面链接]
+- 电子邮件：jean_open_main@163.com
   我们非常感谢您对销售机器人项目的支持和关注！感谢您的贡献！
 
 请根据您的需求修改和补充该README示例，确保包含您的项目的具体信息和要点。
