@@ -5,11 +5,10 @@
 <hr />
 
 #### 编程题：请用自己的数据和 prompt 来测试下方链接中的代码
+- [class_models](../project/openai_api/4.class_models.ipynb)
+- [example_chat_completion](../project/python/example_chat_completion.py)
+- [class_tiktoken](../project/openai_api/4.class_tiktoken.ipynb)
 
-```text
-答：见 project/4.class_models.ipynb and project/python/example_chat_completion.py 
-    project/4.class_tiktoken.ipynb
-```
 
 ### 第二部分：相关名词解释
 #### 1.completion 与chat completion
