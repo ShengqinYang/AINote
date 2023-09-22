@@ -93,13 +93,9 @@ print(conversation)
 
 <hr />
 
-#### [3、LangChain的架构](../resource/AI-LangChain.xmind)
+#### [3、LangChain的架构（xmind格式）](../resource/AI-LangChain.xmind)
 ![图片格式](../resource/AI-LangChain.png)  
-```text
-Model I/O
 
-
-```
 ![avatar](../resource/LangChain设计.png)  
 
 ### 第三部分：一些问答
