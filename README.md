@@ -32,9 +32,11 @@
 - [LangChain 5大核⼼模块源码结构梳理](./resource/AI-LangChain.xmind)
 
 ### 练习4：[结合Langchain应用开发框架实现OpenaiTranslator项目](./note/笔记9-大模型实战：OpenaiTranslator+Langchain实战总结.md)
-  - [实战 LangChain 版 OpenaiTranslator项目](./project/langchain_openai_translator)
+
+- [实战 LangChain 版 OpenaiTranslator项目](./project/langchain_openai_translator)
 
 ### 练习5：[网红项目 AutoGPT 深度学习](./note/笔记10-大模型实战：基于Langchain实现AutoGpt功能.md)
+
 - AutoGPT 原始版本定位与功能解读
 - LangChain 版 AutoGPT 技术方案与架构设计
     - 网络搜索（SerpAPIWrapper）模块
@@ -44,7 +46,7 @@
     - 聊天模型（Chat Models）模块
 - [实战 LangChain 版 AutoGPT](./project/langchain_autogpt)
 
-### 练习6：[基于知识库的销售顾问 Sales-Consultant](./note/笔记11-大模型实战：基于知识库的房产销售 Sales-Consultant.md)
+### 练习6：[基于知识库的销售顾问 Sales-Consultant](./note/笔记11-大模型实战：基于知识库的房产销售Sales-Consultant.md)
 
 - Sales-Consultant 市场需求分析
 - Sales-Consultant 产品定义与功能规划
