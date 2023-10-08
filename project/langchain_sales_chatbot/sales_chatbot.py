@@ -14,7 +14,6 @@ from utils.logger import LOG
 from utils.argument_parser import ArgumentParser
 from utils.sales_confg import SalesConfig
 
-
 conf = configparser.ConfigParser()
 current_directory = os.path.dirname(os.path.realpath('__file__'))
 config_file_path = os.path.join(current_directory, '..', '..', 'config.ini')
@@ -70,7 +69,7 @@ class SalesChatbot(object):
             tools, self.llm, agent=AgentType.SELF_ASK_WITH_SEARCH, verbose=True
         )
         res = agent.run(query)
-        LOG.info(f"搜索引擎：问题：{query}，结果：{res}")
+        LOG.info(f"使用搜索引擎：问题：{query}，结果：{res}")
         return res
 
     def check_topic_relevance(self, q: str, a: str):
@@ -104,7 +103,7 @@ class SalesChatbot(object):
         output_parser = RegexParser(regex="([\u4e00-\u9fa5]+)", output_keys=['keys'])
         checkLLMChain = LLMChain(llm=self.llm, prompt=check_template, output_parser=output_parser)
         result = checkLLMChain.run({"question": q, "answer": a})
-        LOG.info(f"检查Q&A确定性：，确定性：{result['keys']}｜问题：{q}｜结果：{a}")
+        LOG.info(f"检查Q&A确定性：确定性：{result['keys']}｜问题：{q}｜答案：{a}")
         return result
 
     def sales_boot(self, message: str, history: list):
@@ -120,8 +119,8 @@ class SalesChatbot(object):
             check_answer = self.check_sure_answer(message, result)  # 功能：检查RetrievalQA检索结果｜大语言模型的回答 是否满足问题
             if check_answer.get("keys") == "不确定":
                 search_api_answer = self.use_search_api(message)  # 功能：答案不确定时，使用搜索引擎
-                # 功能：搜索结果如果跟本小助手有高相关性 则将Q&A加到向量数据库里
-                relevance_answer = self.check_topic_relevance(message, search_api_answer)
+                # TODO 搜索结果的正确的待验证
+                relevance_answer = self.check_topic_relevance(message, search_api_answer)  # 功能：搜索结果如果跟本小助手有高相关性 则将Q&A加到向量数据库里
                 if relevance_answer.get("keys") == "是":
                     self.add_qa(message, search_api_answer)
                 return search_api_answer
