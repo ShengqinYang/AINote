@@ -172,3 +172,11 @@ websockets==11.0.3
 Werkzeug==2.3.7
 widgetsnbextension==4.0.9
 yarl==1.9.2
+protobuf
+transformers==4.30.2
+cpm_kernels
+torch>=2.0
+gradio
+mdtex2html
+sentencepiece
+accelerate
