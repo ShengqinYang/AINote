@@ -1,24 +1,22 @@
-import configparser
+import os, configparser
 
 import openai
+import requests, json
 from tenacity import retry, wait_random_exponential, stop_after_attempt
 
-GPT_MODEL = "gpt-3.5-turbo"
-
-import os
 conf = configparser.ConfigParser()
-conf.read('../config.ini')
 
-
-os.environ["HTTP_PROXY"] = "http://127.0.0.1:1087"
-os.environ["HTTPS_PROXY"] = "http://127.0.0.1:1087"
-
-openai.api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
-
-# openai.api_key = os.getenv("OPENAI_API_KEY")
-
+current_directory = os.path.dirname(os.path.realpath('__file__'))
+config_file_path = os.path.join(current_directory, '..', '..', 'config.ini')
+conf.read(config_file_path)
+api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
+APISpaceApikey = conf.get("APISpace", "apikey")  # 获取天气的apikey，APISpaceApikey,在config.ini中配置自己的
+openai.api_key = api_key
+os.environ["HTTP_PROXY"] = conf.get("Proxy", "HTTP_PROXY")  # 配置自己的代理
+os.environ["HTTPS_PROXY"] = conf.get("Proxy", "HTTPS_PROXY")
 # 请根据自己的需求调整以下参数
-model = 'gpt-3.5-turbo'
+chat_model = "gpt-3.5-turbo"
+text_model = "text-davinci-003"
 max_tokens = 50
 temperature = 0.2
 
@@ -33,7 +31,7 @@ functions = [
             "properties": {  # 参数的属性
                 "location": {  # 地点参数
                     "type": "string",  # 参数类型为字符串
-                    "description": "The city and state, e.g. San Francisco, CA",  # 参数的描述
+                    "description": "1.The city and state, e.g. San Francisco, CA. 2.The city, e.g. BeiJing, China. 3.The District, e.g. Chaoyang,BeiJing, China. ",  # 参数的描述
                 },
                 "format": {  # 温度单位参数
                     "type": "string",  # 参数类型为字符串
@@ -53,7 +51,7 @@ functions = [
             "properties": {  # 参数的属性
                 "location": {  # 地点参数
                     "type": "string",  # 参数类型为字符串
-                    "description": "The city and state, e.g. San Francisco, CA",  # 参数的描述
+                    "description": "1.The city and state, e.g. San Francisco, CA. 2.The city, e.g. BeiJing, China. 3.The District, e.g. Chaoyang, BeiJing, China. ",  # 参数的描述
                 },
                 "format": {  # 温度单位参数
                     "type": "string",  # 参数类型为字符串
@@ -69,8 +67,6 @@ functions = [
         },
     },
 ]
-import json
-import requests
 
 
 class WeatherApi(object):
@@ -83,7 +79,7 @@ class WeatherApi(object):
     3、获取最近天气信息：get_n_day_weather_forecast()
      """
     headers = {
-        "X-APISpace-Token": "",
+        "X-APISpace-Token": APISpaceApikey,
         "Authorization-Type": "apikey"
     }
     base_url = "https://eolink.o.apispace.com/456456/"
@@ -116,6 +112,7 @@ def execute_function_call(message):
     w_api = WeatherApi()
     if message["function_call"]["name"] == "get_current_weather":
         arguments = json.loads(message["function_call"]["arguments"])
+        print(arguments, type(arguments), "arguments")
         city, area = str(arguments.get("location")).split(', ')
         areacode = w_api.get_area_code(city, area)
         results = w_api.get_current_weather(areacode)
@@ -132,7 +129,7 @@ def execute_function_call(message):
 
 # 1.定义一个函数chat_completion_api，通过 OpenAI Python 库调用 Chat Completions API
 @retry(wait=wait_random_exponential(multiplier=1, max=40), stop=stop_after_attempt(3))
-def chat_completion_api(messages, functions=None, function_call=None, model=GPT_MODEL):
+def chat_completion_api(messages, functions=None, function_call=None, model=chat_model):
     """
     :param messages:
     :param functions:
@@ -163,6 +160,7 @@ def chat_completion_api(messages, functions=None, function_call=None, model=GPT_
             )
         # 解析返回的数据，获取助手的回复消息
         assistant_message = response["choices"][0]["message"]
+        print(assistant_message, "assistant_message")
         return assistant_message
     except Exception as e:
         print("Unable to generate ChatCompletion response")
@@ -195,9 +193,13 @@ def start_chat():
             break
         print('message:', messages)  # 可以看到每次输入的message
         res = chat_completion_api(messages, functions)
-        # print(f"bot：{res['content']}")
-        print(f"bot：{res}")
-        messages.append(res)
+        if res.get("function_call"):
+            results = execute_function_call(res)
+            messages.append({"role": "function", "name": res["function_call"]["name"], "content": results})
+            print(f"bot：{res['content']}")
+            print(f"bot：{content}:{results}")
+        else:
+            messages.append(res)
         start += 1
 
 

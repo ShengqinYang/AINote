@@ -1,12 +1,17 @@
-import configparser
-import openai
 import os
+import openai
+import configparser
 
 conf = configparser.ConfigParser()
-conf.read('../config.ini')
-openai.api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
+current_directory = os.path.dirname(os.path.realpath('__file__'))
+config_file_path = os.path.join(current_directory, '..', '..', 'config.ini')
+conf.read(config_file_path)
+api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
+openai.api_key = api_key
 os.environ["HTTP_PROXY"] = conf.get("Proxy", "HTTP_PROXY")  # 配置自己的代理
 os.environ["HTTPS_PROXY"] = conf.get("Proxy", "HTTPS_PROXY")
+chat_model = "gpt-3.5-turbo"
+text_model = "text-davinci-003"
 
 # 请根据自己的需求调整以下参数
 model = 'gpt-3.5-turbo'

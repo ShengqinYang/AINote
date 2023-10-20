@@ -42,6 +42,12 @@ OpenAI 的 ChatCompletion API 生成机器人的回复。整个程序提供了�
 
 ### 使用样例输出
 
-![Image](/resource/example_chat_completion.png)
+![Image](./聊天助手.png)
+# 2.example_chat_competion_use_weather_function.py
+本程序实现了一个简单的命令行天气助手机器人，允许用户与机器人进行交互并记录对话历史。start_chat()
+#### web url：https://www.apispace.com/
+#### 需要注册登陆该网站并获取apikey，截止：2023-07-28日，该网站每一类接口，新用户有200次免费使用权限
+#### 在config.ini中配置自己的apikey
 
+![Image](./天气助手.png)
 祝您享受与聊天机器人的交互！
