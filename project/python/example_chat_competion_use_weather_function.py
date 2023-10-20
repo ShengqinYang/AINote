@@ -7,7 +7,7 @@ import os
 
 os.environ["HTTP_PROXY"] = "http://127.0.0.1:1087"
 os.environ["HTTPS_PROXY"] = "http://127.0.0.1:1087"
-openai.api_key = "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"
+openai.api_key = ""
 
 # openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -77,7 +77,7 @@ class WeatherApi(object):
     3、获取最近天气信息：get_n_day_weather_forecast()
      """
     headers = {
-        "X-APISpace-Token": "5wr80dvfoijzgqoi9117xevyo9us15zr",
+        "X-APISpace-Token": "",
         "Authorization-Type": "apikey"
     }
     base_url = "https://eolink.o.apispace.com/456456/"
