@@ -8,3 +8,4 @@ config.ini
 test/
 *.log
 *.DS_Store
+project/sales_chatbot/
