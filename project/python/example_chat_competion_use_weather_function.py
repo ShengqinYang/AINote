@@ -13,6 +13,7 @@ APISpaceApikey = conf.get("APISpace", "apikey")  # 获取天气的apikey，APISp
 openai.api_key = api_key
 os.environ["HTTP_PROXY"] = conf.get("Proxy", "HTTP_PROXY")  # 配置自己的代理
 os.environ["HTTPS_PROXY"] = conf.get("Proxy", "HTTPS_PROXY")
+
 # 请根据自己的需求调整以下参数
 chat_model = "gpt-3.5-turbo"
 text_model = "text-davinci-003"
