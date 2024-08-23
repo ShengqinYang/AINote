@@ -5,13 +5,14 @@ import configparser
 conf = configparser.ConfigParser()
 current_directory = os.path.dirname(os.path.realpath('__file__'))
 config_file_path = os.path.join(current_directory, '..', '..', 'config.ini')
+print(config_file_path)
 conf.read(config_file_path)
 api_key = conf.get("Openai", "api_key")  # 在config.ini中配置自己的APIkey
 openai.api_key = api_key
 os.environ["HTTP_PROXY"] = conf.get("Proxy", "HTTP_PROXY")  # 配置自己的代理
 os.environ["HTTPS_PROXY"] = conf.get("Proxy", "HTTPS_PROXY")
 chat_model = "gpt-3.5-turbo"
-text_model = "text-davinci-003"
+text_model = "gpt-3.5-turbo-instruct" # text-davinci-003 2024-01-04已经下线了
 
 # 请根据自己的需求调整以下参数
 model = 'gpt-3.5-turbo'

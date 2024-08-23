@@ -4,7 +4,7 @@ import faiss
 import gradio as gr
 import openai
 from langchain import SerpAPIWrapper, FAISS, InMemoryDocstore
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.embeddings import OpenAIEmbeddings
 from langchain.tools import Tool, WriteFileTool, ReadFileTool
 from langchain_experimental.autonomous_agents import AutoGPT

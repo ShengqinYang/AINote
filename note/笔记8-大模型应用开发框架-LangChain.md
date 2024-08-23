@@ -22,7 +22,7 @@ import configparser
 conf = configparser.ConfigParser()
 conf.read("../config.ini")
 chat_model = "gpt-3.5-turbo"
-text_model = "text-davinci-003"
+text_model = "gpt-3.5-turbo-instruct" # text-davinci-003 2024-01-04已经下线了
 api_key = conf.get("Openai", "api_key")
 ```
 ```python
@@ -44,7 +44,7 @@ print(result_text)
 
 # -----------------------------------------------------------------
 # 使用langchain，调用ChatGPT的接口
-from langchain.llms import OpenAI
+from langchain_openai.llms import OpenAI
 
 llm = OpenAI(model_name=text_model, openai_api_key=api_key)
 llm.max_tokens = 100
@@ -76,7 +76,7 @@ for event in conversation:
         
 # -----------------------------------------------------------------
 # 使用langchain，调用ChatGPT的接口
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 from langchain.schema import (HumanMessage, AIMessage, SystemMessage)
 
 chat = ChatOpenAI(model_name=chat_model, openai_api_key=api_key)
